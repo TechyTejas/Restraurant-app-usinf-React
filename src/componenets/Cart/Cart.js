@@ -15,7 +15,9 @@ const Cart=(props)=>{
             <span>35.62</span>
         </div>
         <div className={classes.actions}>
+             {/* close button in portal */}
             <button className={classes['button--alt']} onClick={props.onClose}>Close</button>
+            {/* order button in portal */}
             <button className={classes.button}>Orders</button>
         </div>
       </Modal>

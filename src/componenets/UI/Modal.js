@@ -8,7 +8,7 @@ const BackDrop = props =>{
 
 const ModalOverlay = props =>{
    return <div className={classes.modal}>
-    <div className={classes.content}>{props.children}</div>
+    <div className={classes.npmcontent}>{props.children}</div>
    </div>
 }
 
